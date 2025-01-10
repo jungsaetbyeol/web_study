@@ -61,7 +61,7 @@ header nav {
   font-size: 24px;
   font-weight: bold;
 }
-.gnb > li > a:hover {
+.gnb > li > a:hover, .depth2 > li > a:hover {
   background-color: rgb(253, 239, 253);
 }
 .gnb:hover .depth2 {
@@ -76,3 +76,7 @@ header nav {
 .depth2 > li > a {
   padding: 5px;
 }
+.depth2 > li > a:hover{
+  background-color: rgb(253, 239, 253);
+}
+

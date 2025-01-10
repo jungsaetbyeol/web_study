@@ -287,3 +287,16 @@ padding: 10px;
   text-align: center;
   line-height: 50px;
 }
+/* .bottom_menu li::after{
+  content: "";
+ border: 1px solid red;
+ height: 10px;
+ position: absolute;
+ top:50%;
+ transform: translatey(-50%);
+ right: 0;
+
+}
+.bottom_menu li:last-child::after{
+  border: none;
+} */
