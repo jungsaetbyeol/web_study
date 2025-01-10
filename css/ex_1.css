@@ -53,7 +53,7 @@ header nav {
   width: calc(100% / 4);
   height: 100%;
   text-align: center;
-  border: 1px solid #ddd;
+  
 }
 .gnb > li > a {
   width: 100%;
@@ -61,7 +61,7 @@ header nav {
   font-size: 24px;
   font-weight: bold;
 }
-.gnb > li > a:hover, .depth2 > li > a:hover {
+.gnb > li:hover > a {
   background-color: rgb(253, 239, 253);
 }
 .gnb:hover .depth2 {
@@ -76,7 +76,50 @@ header nav {
 .depth2 > li > a {
   padding: 5px;
 }
-.depth2 > li > a:hover{
+.depth2 > li:hover > a{
   background-color: rgb(253, 239, 253);
 }
+/* 비주얼 */
+.silde{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(100, 27, 227);
+}
+
+.silde ul li{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+/* .silde ul li a{
+  width: 100%;
+  height: 100%;
+  position: relative;
+} */
+
+.silde ul li img{
+  
+  width: 100%;
+  display: block;
+}
+.silde ul li span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 34px;
+  color: #fff;
+}
+/* 콘텐츠 */
+/* 공지/갤러리 */
+/* 공지 */
+/* 갤러리 */
+/* 배너 */
+/* 바로가기 */
+/* 하단 */
 
