@@ -116,9 +116,59 @@ header nav {
   color: #fff;
 }
 /* 콘텐츠 */
+.contents{
+  
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: aliceblue;
+}
+.c{
+  
+  
+  background-color: aqua;
+  width: 400px;
+  height: 200px;
+}
 /* 공지/갤러리 */
+.c1 p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 30px;
+  /* float: left; */
+  display: block;
+
+  background-color: blue;
+ 
+}
 /* 공지 */
+.c1{
+  
+  position: relative;
+  width: calc(100% / 3);
+  background-color: aliceblue;
+height: 200px;
+}
+.txt{
+  /* background-color: violet;
+  width: 100%;
+  
+  margin-top: 90px; */
+}
+.txt a{
+  
+}
 /* 갤러리 */
+/* .gal{
+  position: absolute;
+  display: flex;
+  
+} */
+ .gal li{
+  float: left;
+ }
 /* 배너 */
 /* 바로가기 */
 /* 하단 */
